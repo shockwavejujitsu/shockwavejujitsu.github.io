@@ -157,8 +157,11 @@
 					<p>Tell us when you're coming or ask a question below.</p>
 
 					<!-- Contact Form -->
-					<form method="POST" data-netlify="true">
+					<form method="POST" netlify-honeypot="bot-field" data-netlify="true">
 						<div class="fields">
+							<p class="hidden">
+								<label>Do not fill this form field if you're a human: <input name="bot-field" /></label>
+							</p>
 							<div class="field">
 								<label for="name">Name</label>
 								<input type="text" name="name" id="name" />
