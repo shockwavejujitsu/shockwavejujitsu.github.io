@@ -93,13 +93,16 @@
                             <h2 class="major">Get Started</h2>
                             <ul class="alt">
                                 <li>
-                                    <strong>STEP 1</strong>. Read the <a href="about.html" class="button xsmall">About</a> and <a href="faqs.html" class="button xsmall">FAQs</a> pages so you'll know what to expect
+                                    <strong>STEP 1.</strong>&nbsp; Read the <a href="about.html" class="button xsmall">About</a> and <a
+                                        href="faqs.html" class="button xsmall">FAQs</a> pages so you'll know what to expect
                                 </li>
                                 <li>
-                                    <strong>STEP 2</strong>. Check the <a href="index.html#class-schedule" class="button xsmall">Class Schedule</a> so you'll know when and where we train
+                                    <strong>STEP 2.</strong>&nbsp; Check the <a href="#class-schedule" class="button xsmall scrolly">Class
+                                        Schedule</a> so you'll know when and where we train
                                 </li>
                                 <li>
-                                    <strong>STEP 3</strong>. <a href="#contact" class="button xsmall">Contact</a> us to let us know when you're coming or to ask a question
+                                    <strong>STEP 3.</strong>&nbsp; <a href="#contact" class="button xsmall scrolly">Contact</a> us to let us know
+                                    when you're coming or to ask a question
                                 </li>
                             </ul>
                         </div>
@@ -116,8 +119,12 @@
                     <p>Let us know when you're coming or ask us a question</p>
 
                     <!-- Contact Form -->
-                    <form method="post" action="#">
+                    <form method="POST" action="/success" netlify-honeypot="bot-field" data-netlify="true">
                         <div class="fields">
+                            <div class="hidden">
+                                <label>Do not complete this form field if you're a human!</label>
+                                <input name="bot-field" />
+                            </div>
                             <div class="field">
                                 <label for="name">Your Name</label>
                                 <input type="text" name="name" id="name" />
@@ -128,7 +135,8 @@
                             </div>
                             <div class="field">
                                 <label for="message">Your Message</label>
-                                <textarea name="message" placeholder="I'm coming to train this Sunday..." id="message" rows="4"></textarea>
+                                <textarea name="message" placeholder="I'm coming to train this Sunday..." id="message"
+                                    rows="4"></textarea>
                             </div>
                         </div>
                         <ul class="actions">
@@ -138,23 +146,23 @@
 
                     <!-- Contact Details -->
                     <ul class="contact">
-                        <li class="icon solid fa-home">
+                        <li class="icon solid fa-map-marker-alt">
                             Shockwave Jujitsu<br />
                             Blackwell Academy<br />
                             8 Dunlop Rd<br />
                             Ipswich<br />
                             IP2 0UG<br />
                             <br />
-                            <a href="https://goo.gl/maps/waS95JqSmCkh8XiQ8" target="_blank" class="button">Directions</a>
+                            <a href="https://goo.gl/maps/waS95JqSmCkh8XiQ8" target="_blank" class="button xsmall-alt">Map &
+                                Directions</a>
                         </li>
                         <li class="icon solid fa-envelope"><a href="#">info@shockwavejujitsu.org</a></li>
                         <li class="icon brands fa-facebook-f"><a href="#">facebook.com/shockwavejujitsu</a></li>
-
                     </ul>
 
                     <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; <a href="index.html">Shockwave Jujitsu</a></li>
+                        <li>&copy; <a href="http://www.shockwavejujitsu.org">Shockwave Jujitsu</a></li>
                         <li>Reality-based, close-quarters self-defence classes in Ipswich</li>
                         <li><a href="https://goo.gl/maps/waS95JqSmCkh8XiQ8" target="_blank">Blackwell Academy, Ipswich</a></li>
                     </ul>
