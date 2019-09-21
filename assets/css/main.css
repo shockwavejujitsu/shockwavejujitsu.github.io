@@ -66,6 +66,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.hidden {
+	display: none;
+}
+
 /* Basic */
 
 	@-ms-viewport {

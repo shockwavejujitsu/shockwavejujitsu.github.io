@@ -159,9 +159,10 @@
 					<!-- Contact Form -->
 					<form method="POST" netlify-honeypot="bot-field" data-netlify="true">
 						<div class="fields">
-							<p class="hidden">
-								<label>Do not fill this form field if you're a human: <input name="bot-field" /></label>
-							</p>
+							<div class="hidden">
+								<label>Do not complete this form field if you're a human!</label>
+								<input name="bot-field" />
+							</div>
 							<div class="field">
 								<label for="name">Name</label>
 								<input type="text" name="name" id="name" />
