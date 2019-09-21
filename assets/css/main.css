@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300italic,600italic"); */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -119,7 +118,6 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		/* font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif; */
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
@@ -2208,7 +2206,7 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5b6ba6;
+			border-color: #ffff99;
 		}
 
 	select {
@@ -3476,7 +3474,6 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
-			text-transform: none;
 		}
 
 		#banner p {

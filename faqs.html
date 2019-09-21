@@ -227,8 +227,12 @@
                     <p>Tell us when you're coming or ask a question below.</p>
 
                     <!-- Contact Form -->
-                    <form method="post" action="#">
+                    <form method="POST" action="/success" netlify-honeypot="bot-field" data-netlify="true">
                         <div class="fields">
+                            <div class="hidden">
+                                <label>Do not complete this form field if you're a human!</label>
+                                <input name="bot-field" />
+                            </div>
                             <div class="field">
                                 <label for="name">Name</label>
                                 <input type="text" name="name" id="name" />
