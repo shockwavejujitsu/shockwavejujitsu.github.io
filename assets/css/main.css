@@ -2943,7 +2943,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #45558d;
+				background-color: #FFFF99;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2951,7 +2951,7 @@ input, select, textarea {
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
 			.button.primary.icon:before {
-				color: #7985b0;
+				color: #FFFF99;
 			}
 
 		input[type="submit"].fit,
