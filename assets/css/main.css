@@ -138,6 +138,7 @@ input, select, textarea {
 .note-text {
 	padding-right: 48px;
 	color: #141414;
+	font-size: 0.9em;
 }
 
 .student {
