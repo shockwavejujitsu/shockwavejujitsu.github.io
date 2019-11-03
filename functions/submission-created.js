@@ -2,7 +2,7 @@
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-export function handler(event, context, callback) {
+exports.handler = function(event, context, callback) {
     console.log('+++ event: ', event);
 
     let inboxEmail = 'shockwavejujitsu@gmail.com'
